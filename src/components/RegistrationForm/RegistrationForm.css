@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ysabeau+SC:wght@200;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
 body{
   background-image: url(reg_page_bg.png);
   background-size: cover;
@@ -13,12 +15,12 @@ body{
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   box-sizing: border-box;
-  font-family: "Roboto Slab", serif;
-  font-family: "Ysabeau SC", sans-serif;
+  font-family: 'Goldman', cursive;
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 800;   
+  
   color: #FFB400;
-  background-image: radial-gradient(circle, #1B256A, #246CA4, #1B2469);
+  background-image: radial-gradient(circle,  #246CA4, #1B2469,#1B256A);
   opacity: 0.9;
 }
 
@@ -29,9 +31,11 @@ body{
   padding: 80px 90px 70px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-  font-family: "Roboto Slab", serif;
-  font-family: "Ysabeau SC", sans-serif;
-  background-image: radial-gradient(circle, #1B256A, #246CA4, #1B2469);
+  font-family: 'Goldman', cursive;
+
+  background-image: radial-gradient(circle,  #246CA4, #1B2469,#1B256A);
+  
+  
   opacity: 0.9;
   display: flex;
   flex-direction: column;
@@ -109,7 +113,7 @@ body{
     font-weight: 800;
     color: #FFB400;
     background-image: radial-gradient(circle, #1B256A, #246CA4, #1B2469);
-    opacity: 0.9;
+    /* opacity: 0.9; */
   }
   
   #container {
